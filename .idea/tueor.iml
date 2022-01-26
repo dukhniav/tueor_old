@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/static/assets/vendor/@popperjs/core/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/static/assets/vendor/bootstrap/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/static/assets/vendor/chartist/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/static/assets/vendor/chartist-plugin-tooltips/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/static/assets/vendor/onscreen/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/static/assets/vendor/simplebar/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/static/assets/vendor/smooth-scroll/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/static/assets/vendor/sweetalert2/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/static/assets/vendor/vanillajs-datepicker/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/static/assets/vendor/waypoints/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/staticfiles/assets/vendor/@popperjs/core/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/staticfiles/assets/vendor/bootstrap/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/staticfiles/assets/vendor/chartist/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/staticfiles/assets/vendor/chartist-plugin-tooltips/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/staticfiles/assets/vendor/onscreen/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/staticfiles/assets/vendor/simplebar/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/staticfiles/assets/vendor/smooth-scroll/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/staticfiles/assets/vendor/sweetalert2/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/staticfiles/assets/vendor/vanillajs-datepicker/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/staticfiles/assets/vendor/waypoints/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/lib" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+</module>

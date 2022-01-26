@@ -1,0 +1,46 @@
+<nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary pt-4 navbar-dark">
+  <div class="container position-relative">
+      <div class="navbar-collapse collapse me-auto" id="navbar_global">
+          <div class="navbar-collapse-header">
+              <div class="row">
+                  <div class="col-6 collapse-brand">
+                      <a href="/">
+                          <img src="/static/assets/img/brand/tueor_logo_simple.png" alt="Tueor logo">
+                      </a>
+                  </div>
+                  <div class="col-6 collapse-close">
+                      <a href="#navbar_global" class="fas fa-times" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" title="close" aria-label="Toggle navigation"></a>
+                  </div>
+              </div>
+          </div>
+          <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+              {% if user.is_superuser %}
+                  <li class="nav-item me-2">
+                      <a href="/admin/auth/user/" class="nav-link">Admin</a>
+                  </li>
+              {% endif %}
+              {% if user.is_authenticated %}
+              <li class="nav-item me-2">
+                  <a href="/dashboard.html" class="nav-link">Dashboard</a>
+              </li>
+              <li class="nav-item me-2">
+                  <a href="/settings.html" class="nav-link">Settings</a>
+              </li>
+              {% endif %}
+          </ul>
+      </div>
+      <div class="navbar-nav ml-auto">
+          <ul class="navbar-nav navbar-nav-hover">
+              {% if user.is_authenticated %}
+              <li class="nav-item me-2">
+                  <a href="/logout/" class="nav-link">Logout</a>
+              </li>
+              {% else %}
+              <li class="nav-item me-2">
+                  <a href="{% url 'login' %}" class="nav-link">Login</a>
+              </li>
+              {% endif %}
+          </ul>
+      </div>
+  </div>
+</nav>

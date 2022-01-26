@@ -1,0 +1,10 @@
+{
+  "name": "tueor",
+  "version": "1.0.1",
+  "devDependencies": {
+    "auto-changelog": "*"
+  },
+  "scripts": {
+    "version": "auto-changelog -p && git add CHANGELOG.md"
+  }
+}
