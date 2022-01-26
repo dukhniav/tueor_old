@@ -1,1 +1,1 @@
-web: gunicorn tueor.wsgi
+web: gunicorn tueor.wsgi --log-file -
