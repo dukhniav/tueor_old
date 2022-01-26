@@ -19,11 +19,11 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 urlpatterns = [
-    path('admin/', admin.site.urls),                # Django admin route
+    path("admin/", admin.site.urls),  # Django admin route
     path("", include("authentication.urls")),  # Auth routes - login / register
-    path("", include("core.urls")),             # UI Kits Html files
-    path('portfolio/', include('portfolio.urls')),
-    path('dashboard/', include('dashboard.urls')),
+    path("", include("core.urls")),  # UI Kits Html files
+    path("portfolio/", include("portfolio.urls")),
+    path("dashboard/", include("dashboard.urls")),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
