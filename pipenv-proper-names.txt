@@ -1,0 +1,8 @@
+Deprecated
+Django
+Jinja2
+MarkupSafe
+PyGithub
+PyJWT
+PyNaCl
+PyYAML
