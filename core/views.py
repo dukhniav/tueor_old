@@ -24,3 +24,10 @@ def index(request):
 
     html_template = loader.get_template("core/index.html")
     return HttpResponse(html_template.render(context, request))
+
+
+def settings(request):
+    context = {"segment": "settings"}
+
+    html_template = loader.get_template("core/settings.html")
+    return HttpResponse(html_template.render(context, request))
