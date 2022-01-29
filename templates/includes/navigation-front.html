@@ -21,10 +21,10 @@
               {% endif %}
               {% if user.is_authenticated %}
               <li class="nav-item me-2">
-                  <a href="/dashboard.html" class="nav-link">Dashboard</a>
+                  <a href="/dashboard/" class="nav-link">Dashboard</a>
               </li>
               <li class="nav-item me-2">
-                  <a href="/settings.html" class="nav-link">Settings</a>
+                  <a href="/settings/" class="nav-link">Settings</a>
               </li>
               {% endif %}
           </ul>
@@ -38,6 +38,9 @@
               {% else %}
               <li class="nav-item me-2">
                   <a href="{% url 'login' %}" class="nav-link">Login</a>
+              </li>
+              <li class="nav-item me-2">
+                  <a href="{% url 'register' %}" class="nav-link">Sign Up</a>
               </li>
               {% endif %}
           </ul>
